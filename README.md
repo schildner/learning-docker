@@ -31,5 +31,5 @@ Just some random notes on using Docker and building Docker images.
 ## Solution
 
 ### BuildKit features allowing various caching possibilities
-- `--mount=type=tmpfs` for ramdisk (Link to StackOverflow)[https://stackoverflow.com/questions/54638475/build-a-docker-image-using-docker-build-and-a-tmpfs]
-- `--mount=type=cache` for caching dependency packages  (Link to BuildKit docu)[https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/syntax.md#example-cache-apt-packages]
+- `--mount=type=tmpfs` for ramdisk [Link to StackOverflow](https://stackoverflow.com/questions/54638475/build-a-docker-image-using-docker-build-and-a-tmpfs)
+- `--mount=type=cache` for caching dependency packages  [Link to BuildKit docu](https://github.com/moby/buildkit/blob/master/frontend/dockerfile/docs/syntax.md#example-cache-apt-packages)
